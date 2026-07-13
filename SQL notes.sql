@@ -250,3 +250,20 @@ SELECT NOW(),
 
 SELECT NOW(),
        DATE_FORMAT(NOW(), 'Year is %Y, Month is %M');
+       
+       
+-- round off to nearest 10 ,100 , 1000
+
+select 3.2, round(3.2,-1);
+select 15.2, round(15.2,-1);
+
+
+-- -2 =>1
+select 252.2,round(252.3,-2);
+
+select 99994, round(94444.2,-4);
+
+-- functions  imp (round , truncate , mod)
+select round(254.257) , truncate(34.857,1) , mod(3,5);
+
+select floor (34.99999999) , ceil(34.00000001);
