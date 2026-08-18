@@ -36,7 +36,7 @@ alter table testdb6.employee rename column empid to id; -- column rename
 alter table testdb6.employee rename to employee2; -- table rename
 desc testdb6.employee2;
 
--- Truncate
+-- Truncate --
 select * from testdb6.employee2;
 insert into testdb6.employee2 values(100,80);
 
